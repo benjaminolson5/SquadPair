@@ -8,13 +8,22 @@
 </head>
 <body>
     <div>
-        <header>Select Game For Pairing</header>
-    </div>
-    <div id="dirrectonButtons">
-        <button id="apex">Apex Legends</button>
-        <button id="fallGuys">Fall Guys</button>
-        <button id="fortnite">Fortnite</button>
-        <button id="codWarzone">Call of Duty: Warzone</button>
+      <header>Matchmaking Form</header>
+      <form name="form1" id="form1" action="/action_page.php">
+        Game: <select name="subject" id="subject">
+            <option value="" selected="selected">Select game</option>
+          </select>
+          <br><br>
+        Rank: <select name="rank" id="rank">
+            <option value="" selected="selected">Select in game rank</option>
+          </select>
+          <br><br>
+        Squad Size: <select name="squadNumber" id="chapter">
+            <option value="" selected="selected">Select remaining squad members needed</option>
+          </select>
+          <br><br>
+          <input type="submit" value="Submit">  
+        </form>
     </div>
 </body>
 </html>
